@@ -21,3 +21,13 @@ git config user.name
 git config --global user.email "email"
 git config user.email
 ```
+
+3. Initialize a Repository
+
+```bash
+git init
+```
+
+4. Legends
+
+- U : Untracked
