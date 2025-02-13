@@ -69,7 +69,7 @@ git log --oneline
 
 1. Reverting commits
 
-- Creat a new commit that undo the changes from the previous commit.
+- Create a new commit that undo the changes from the previous commit.
 
 ```bash
 git revert --no-edit [problematic-hash]
