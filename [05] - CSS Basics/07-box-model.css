@@ -1,0 +1,73 @@
+.box {
+    background-color: #ed6a5a;
+    color: #f4f1bb;
+    height: 100px;
+    width: 100px;
+    font-weight: bolder;
+    box-shadow: 10px 10px 8px 2px #9bc1bc;
+    /* h-offset (Horizontal Offset) : negative (left) - positive (right) */
+    /* v-offset (Vertical Offset) : negative (top) - positive (bottom) */
+    /* blur : Higher value will make it more blurred */
+    /* spread : refers to the size of the shadow */
+    /* color of the shadow */
+    /* inset : a value to position the shadow inside the box */
+    
+    /* 1 value - all side */
+    /* 2 values - (top and bottom) (left and right) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left : (clock-wise)  */
+    border-style: solid dashed dotted double;
+    border-width: 8px 10px 12px 14px;
+    border-color: #219ebc #023047 #ffb703 #fb8500;
+
+    /* Border Shorthand */
+    border: solid 4px #023047;
+}
+
+/* Padding (inner spacing) - add a space inside the box */
+.box1 {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+/* Padding Shorthand */
+.box2 {
+    /* 1 value - all side */
+    /* 2 values - (top and bottom) (left and right) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left : (clock-wise)  */
+    padding: 10px 20px 30px 40px;
+}
+
+/* Margin - (space outside) */
+.box3 {
+  margin-top: 10px;  
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+/* Margin Shorthand */
+.box4 {
+    /* 1 value - all side */
+    /* 2 values - (top and bottom) (left and right) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left : (clock-wise)  */
+    margin: 10px 20px 30px 40px;
+}
+
+.circle {
+    /* total width = 10(left-border) + 100(width) + 10(right-border) = 120px */
+    /* radius: 120/2 = 60px */
+    width: 100px;
+    height: 100px;
+    background-color: #ff7d00;
+    color: #ffecd1;
+    border: solid 10px #001542;
+    border-radius: 60px;
+    box-shadow: 10px 2px 12px;
+    text-align: center;
+}
+
