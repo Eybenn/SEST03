@@ -97,3 +97,32 @@ const gradesWithEC = {
 };
 
 console.log("Grades with Extra Curricular:", gradesWithEC);
+
+// Object.keys(): return the keys of an object in an array.
+const keys = Object.keys(person);
+console.log("Keys:", keys);
+
+// Object.values(): return the values of an object in an array.
+const values = Object.values(person);
+console.log("Values:", values);
+
+// Object.entries(): return the key and value pair of an object.
+// Return: Nested Array, first element is the key, second element is the value.
+const keyAndValuePair = Object.entries(person);
+console.log("Key-value pair:", keyAndValuePair);
+
+// for in loop: iterate through the keys of an object.
+for (let key in gradesWithEC) {
+  console.log(`Key: ${key}, Value: ${gradesWithEC[key]}`);
+}
+
+// JavaScript Object Notation(JSON): exchange data.
+console.log("Person:", person);
+console.log("Data Type:", typeof person);
+let personObjectToString = JSON.stringify(person);
+console.log("Person Object To String:", personObjectToString);
+console.log("Data Type:", typeof personObjectToString);
+
+let personStringToObject = JSON.parse(personObjectToString);
+console.log("Person Object:", personStringToObject);
+console.log("Data Type:", typeof personStringToObject);
